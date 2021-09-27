@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "Bold";
+    src: url(pbold.ttf);
+}
+
+@font-face {
+    font-family: "Medium";
+    src: url(pm.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Medium";
+}
+
+.loginPage{
+    padding-top: 60px;
+    width: 552px;
+    height: 484px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 12px;
+}
+
+
+.loginPage h1{
+    font-family: "Bold";
+}
+
+.loginPage h6{
+    padding-top: 8px;
+}
+
+.loginPage input{
+    width: 360px;
+    height: 48px;
+    border-color: rgba(44, 44, 44, 0.25);
+    border-radius: 8px;
+    margin-left: 80px;
+    color: black;
+}
+
+#loginbtn:hover{
+    transform: scale(1.02);
+    transition: 0.5s;
+}
